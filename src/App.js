@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
-
+import Relox2 from './components/pure/relox2';
+import Reloj from './components/pure/forms/Reloj';
 import Contactlist from './components/containers/contactlist';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      <Contactlist></Contactlist>
+ 
+    <Contactlist></Contactlist>
        
-      </header>
+     
     </div>
   );
 }
