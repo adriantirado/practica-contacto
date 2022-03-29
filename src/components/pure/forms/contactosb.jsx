@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-
 function Contactosb({conectado}) {
 const [state, setstate] = useState(conectado);
 const cambiar=()=>{

@@ -25,7 +25,7 @@ const Contactoform = ({add}) => {
             <input ref={apellidoRef} id='inputApellido' type='text' className='form-control form-control-lg'
             required  placeholder='Introduce apellido'/>
             <input ref={emailRef} id='inputEmail' type='text' className='form-control form-control-lg'
-            required placeholder='Introduce email' />
+            required placeholder='Introduce ' />
             
         </div>
         <button type='submit' className='btn btn-succes btn-lg'>Aceptar</button>
