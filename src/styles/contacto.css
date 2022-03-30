@@ -1,3 +1,9 @@
 .concat-estado{
     cursor: pointer;
 }
+.color{
+ border: 1px solid black;
+ 
+  height: 255px;
+  width: 255px;
+}
