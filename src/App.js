@@ -6,15 +6,24 @@ import Reloj from './components/pure/forms/Reloj';
 import Contactlist from './components/containers/contactlist';
 import Mouse from './components/pure/forms/Mouse';
 import TaskListComponent from './components/containers/task_list';
+import Loginformik from './components/pure/forms/loginFormik';
+import Loginpage from './pages/auth/LoginPage';
+import RegisterPage from './pages/auth/RegisterPage';
+import {BrowserRouter,Route,Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+  
+  
+  <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Loginpage />} />
+        <Route path="/registro" element={<RegisterPage />} />
+        <Route path="/dashboard" element={<TaskListComponent />} />
+      </Routes>
+    </BrowserRouter>
+    
  
-   {/*<Contactlist></Contactlist>*/}
-    <TaskListComponent></TaskListComponent>
-     
-    </div>
   );
 }
 
